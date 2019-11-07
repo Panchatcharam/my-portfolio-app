@@ -38,11 +38,10 @@ class Menu extends React.Component {
     render() {
 
         return(
-            <Navbar fixed="top" bg="dark" variant="dark" ref={(e) => this._navbar = e}>
+            <Navbar style={{fontWeight:"bold"}} fixed="top" bg="primary" variant="dark" ref={(e) => this._navbar = e}>
                 <Avatar alt="Panch Sharp" src="/images/panch-avatar.jpeg" className={useStyles.avatar} />
-                <Navbar.Brand href="#home">Home</Navbar.Brand>
+                <Navbar.Brand href="#home" style={{marginLeft:12}}>Home</Navbar.Brand>
                 <Nav className="mr-auto">
-                    <Nav.Link href="#home">Introduction</Nav.Link>
                     <Nav.Link href="#About">About</Nav.Link>
                     <Nav.Link href="#TimeLine">TimeLine</Nav.Link>
                     <Nav.Link href="#Contact">Contact</Nav.Link>
