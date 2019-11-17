@@ -1,6 +1,6 @@
 const timeLineData = [
   {
-    title: "Software Engineer II",
+    title: "Software Development Engineer II",
     date: 'Jan 2018 to till date',
     responsibility: ["Participates in identifying and solving problems",
         "Owns postpurchase team level work. Drives, guides, and advises design discussions across the team",
